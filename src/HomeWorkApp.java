@@ -1,20 +1,17 @@
 public class HomeWorkApp {
     public static void main(String[] args) {
-
         printThreeWords();
         checkSumSign();
         printColor();
         compareNumbers();
-
-
     }
     public static void printThreeWords(){
         System.out.println("""
                 Orange\s
                 Banana\s
                 Apple""");
-
     }
+
     public static void checkSumSign() {
         int a = 2;
         int b = 2;
@@ -37,8 +34,8 @@ public class HomeWorkApp {
         if (value >= 100){
             System.out.println("Зелёный");
         }
-
     }
+
     public static void compareNumbers(){
         int a = 2;
         int b = 3;
@@ -48,9 +45,6 @@ public class HomeWorkApp {
         } else {
             System.out.println("a<b");
         }
-
-
     }
-
 }
 
