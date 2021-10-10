@@ -6,10 +6,7 @@ public class HomeWorkApp {
         compareNumbers();
     }
     public static void printThreeWords(){
-        System.out.println("""
-                Orange\s
-                Banana\s
-                Apple""");
+        System.out.println("Orange\n" + "Banana\n" + "Apple");
     }
 
     public static void checkSumSign() {
